@@ -17,12 +17,13 @@ const emit = defineEmits(['update:modelValue'])
 			<div class="input-group align-self-end align-items-center rounded-5">
 				<input
 					type="text"
-					class="form-control position-relative z-0 py-3 px-4 rounded-5"
+					class="form-control position-relative z-0 py-3 ps-4 rounded-5"
 					placeholder="Tap to import a prompt."
 					aria-label="User answer"
 					aria-describedby="button-addon2"
 					:value="props.modelValue"
 					@input="$emit('update:modelValue', $event.target.value)"
+					style="padding-right: 60px"
 				/>
 				<button
 					class="btn btn-dark position-absolute end-0 me-1"
