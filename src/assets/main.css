@@ -1,0 +1,17 @@
+@import 'bootstrap/dist/css/bootstrap.css';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+@import './base.css';
+
+#app {
+  margin: 0 auto;
+  padding: 5rem;
+  font-weight: normal;
+
+  @media (max-width: 1024px) {
+    padding: 2rem;
+  }
+
+  @media (max-width: 430px) {
+    padding: 1rem;
+  }
+}
