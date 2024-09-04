@@ -31,7 +31,7 @@ const truncateText = (text, maxLength) => {
 				<span class="visually-hidden">Loading...</span>
 			</div>
 		</div>
-		<div v-else>
+		<div class="h-100" v-else>
 			<img
 				:src="product.image"
 				:alt="product.title"

@@ -81,14 +81,14 @@ const emit = defineEmits(['update:modelValue'])
 <style scoped lang="scss">
 .card {
 	&--first {
+		.card-img-overlay,
+		.card-img-overlay:hover {
+			background-color: unset;
+		}
+
 		.btn:disabled {
 			background: black !important;
 			opacity: 1;
-		}
-		&:hover {
-			.card-img-overlay {
-				background-color: unset;
-			}
 		}
 	}
 

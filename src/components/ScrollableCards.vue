@@ -108,6 +108,7 @@ onMounted(async () => {
 	}
 
 	.card-img-overlay {
+		background-color: rgba(0, 0, 0, 0.3);
 		font-family: 'Roboto';
 		word-wrap: break-word;
 		overflow-wrap: break-word;
