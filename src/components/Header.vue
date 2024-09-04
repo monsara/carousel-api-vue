@@ -90,4 +90,10 @@
 .cta-btn {
   font-size: 15px;
 }
+
+.offcanvas {
+  @media (max-width: 430px) {
+    width: 100vw;
+  }
+}
 </style>
